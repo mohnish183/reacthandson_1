@@ -17,12 +17,18 @@
   top: 36vh;
   left: 10vw;
 }
-
+.extcss {
+  font-size: 14px;
+  color: blue;
+}
 .display button,
 .displayclassbtn button {
-  width: 16vw;
+  width: 30vw;
   height: 6vh;
   border-radius: 6vh;
+  &:hover {
+    background: linear-gradient(45deg, #f15523, #ef3224, #7c3697);
+  }
 }
 
 .display button {

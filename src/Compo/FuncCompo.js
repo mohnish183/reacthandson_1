@@ -13,8 +13,10 @@ function FunctionCompo() {
   return (
     <div className="functionblock">
       <h1>This is created by using function component</h1>
-      <p>This is done by using external css</p>
-      <p>This is done by using inline css.</p>
+      <p className="extcss">This is done by using external css</p>
+      <p style={{ color: "red", fontSize: "20px" }}>
+        This is done by using inline css.
+      </p>
     </div>
   );
 }
