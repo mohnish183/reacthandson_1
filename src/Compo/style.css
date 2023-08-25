@@ -1,0 +1,40 @@
+.divhead h1 {
+  margin-bottom: 10vh;
+}
+
+.functionblock,
+.container1 {
+  width: 30vw;
+  border: 2px solid pink;
+}
+.container1 {
+  position: absolute;
+  top: 36vh;
+  right: 8vw;
+}
+.functionblock {
+  position: absolute;
+  top: 36vh;
+  left: 10vw;
+}
+
+.display button,
+.displayclassbtn button {
+  width: 16vw;
+  height: 6vh;
+  border-radius: 6vh;
+}
+
+.display button {
+  position: absolute;
+  top: 18vh;
+  left: 10vw;
+  cursor: pointer;
+}
+
+.displayclassbtn button {
+  position: absolute;
+  top: 18vh;
+  right: 10vw;
+  cursor: pointer;
+}
